@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.navbar.navbar-dark{
+margin-top: 15px;
+display: inline-flex;
+justify-content: center;
+border-radius: 10px;
+padding: 20px;
+}
+.btn.btn-outline-success{
+margin:7.5px;
+display: flex;
+justify-content: center;
+padding: 5px;
+}
+.spinner-grow{
+display: flex;
+}
+
+.marquee > .ticker{
+    display: inline-flex;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.marquee > .price{
+    color: green;
+    font-size: 15px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin-left: 0;
+    padding-right: 0;
+}
+
+a img {
+    width: 25px;
+    height: 25px;
+}
+
+a mark {
+margin: 0;
+padding: 0;
+}
